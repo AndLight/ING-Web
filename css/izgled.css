@@ -38,3 +38,11 @@ img{
 .roundBtn{
     border-radius: 20px;
 }
+
+.lupa{
+    color:red;
+    display: inline-block;
+    border-radius: 100px;
+    background-color: rgb(247, 166, 166);
+    padding: 1em 1.1em;
+}
