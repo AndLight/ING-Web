@@ -10,15 +10,14 @@
     <!-- bootstrap end -->
     
     <!--Font Awesone-->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <!--
     <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
     <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">
-    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/brands.css">
-    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/brands.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/fontawesome.css">
-    -->
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/js/all.js">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/js/all.min.js">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/js/fontawesome.js">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/js/fontawesome.min.js">
     <!--Font Awesone-->
 
   <link href="css/izgled.css" rel="stylesheet">
@@ -26,14 +25,14 @@
 
 
 </body>
-
+<!--Navigacija-->
 <nav class="navbar navbar-expand-lg  fixed-top" id="mainNav" style="align-items: center;">
   <div class="container-fluid">
     <!--Logo-->
     <img class="logo img-fluid" src="images/logo.png">
 
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fa fa-align-justify" title="Align Justify"></i>
+      <i class="fas fa-align-justify" title="Align Justify"></i>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -57,9 +56,10 @@
     </div>
   </div>
 </nav>
+<!--End Navigacija-->
 
 <!--Home-->
-<section id="home">
+<section id="home" style="white-space: nowrap;">
   <div class="container">
     <div class="row text-center">
       <div class="col-md-6 prviDeo">
@@ -70,7 +70,7 @@
         <p class="text-muted">traffic, rankings and visibility in search results.</p>
         <a class="btn btn-primary roundBtn text-uppercase" href="">Try it for free</a>
       </div>
-      <div class="col-md-6 drugiDeo" >
+      <div class="col-md-6 drugiDeo">
         <img class="img-fluid" src="images/rocket2.png" style="position: absolute; left:35%;">
         <img class=" img-fluid" src="images/rocket3.png" style="position: relative;">
         <img class=" img-fluid" src="images/rocket4.png" style="position: relative;">
@@ -83,7 +83,7 @@
 <!--Home End-->
 
 <!--What we do-->
-<div id="whatwedo">
+<div id="whatwedo" style="padding-top: 150px;">
   <div class="text-center">
     <p class="text-muted">What we do?</p>
     <bl>
@@ -95,21 +95,44 @@
     <div class="row text-center">
         <div class="col-md-3">
           <i class="fa fa-search lupa"></i> <!--Lupa-->
+          <br><br>
           <h5>SEO Services</h5>
           <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
         </div>
         <div class="col-md-3">
-          <i class=""></i> <!--mouse pad-->
+          <!--Nisam mogo da nadjem adekvatnu ikonicu u besplatnoj verziji font awesome-a -->
+          <i class="fa fa-laptop laptop"></i> <!--Web-->
+          <br><br>
           <h5>Web Design</h5>
           <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
         </div>
         <div class="col-md-3">
-          <i class=""></i> <!--share-->
-          <h5>Social Engagement</h5>
-          <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+          <span class="fa-layers fa-fw">
+            <!--
+            <img src="images/blob1.svg" class="blob">
+            -->
+
+            <!--Bloob1.svg-->
+            <svg id="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 192.71">
+              <title>shape</title>
+              <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_1-2" data-name="#Layer 1">
+                      <path d="M198,71c10.4,39.76-21.65,85.41-57.3,106.84s-75.13,18.68-103.07-1.32A91.16,91.16,0,0,1,2.62,81C12,42.62,47.12,3,91.06.17S187.67,31.19,198,71Z"/>
+                  </g>
+              </g>
+            </svg>
+            <!--End Bloob1.svg-->
+
+            <i class="fa fa-share-alt znak"></i> <!--share-->
+          </img>
+            <br><br>
+            <h5>Social Engagement</h5>
+            <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+          </span>
         </div>
         <div class="col-md-3">
-          <i class=""></i> <!--checklist-->
+          <i class="fa fa-tasks checklist"></i> <!--checklist-->
+          <br><br>
           <h5>Content Marketing</h5>
           <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
         </div>
@@ -117,6 +140,73 @@
   </div>
 </div>
 <!--What we do end-->
+
+<!--Why choose us-->
+<div class="container" style="padding-top: 150px;">
+  <div class="row ">
+      <div class="col-md-6">
+        <img src="images/concept8.png">
+      </div>
+      <div class="col-md-6">
+        <p class="text-muted text-uppercase">Why choose us?</p>
+        <h3>Why is Search Engine Optimization</h3>
+        <h3>important for your business?</h3>
+        <p class="text-muted">Mobi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+        
+        <div style="padding-top: 50px;">
+          <i class="fa fa-check check"></i>
+          <p class="text-muted">Aenean eu leo quam ornare.</p>
+          <i class="fa fa-check check"></i>
+          <p class="text-muted">Nullam quis risus eget mollis.</p>
+          <i class="fa fa-check check"></i>
+          <p class="text-muted">Donec elit non mi porta gravida.</p>
+          <i class="fa fa-check check"></i>
+          <p class="text-muted">Fusce dapibus cursus commodo.</p>
+        </div>
+      </div>
+  </div>
+</div>
+<!--End Why choose us-->
+
+<!--Our process-->
+<div class="container" style="padding-top: 150px;">
+  <div class="row ">
+      <div class="col-md-6">
+        <p class="text-muted text-uppercase">Our process</p>
+        <h3>We bring solutions to make life</h3>
+        <h3>easier for our customers</h3>
+
+        <div class="column">
+            <!--
+            <div class="fa-3x">
+              <span class="fa-layers fa-fw">
+                
+                <i class="fas fa-envelope"></i>
+                <span class="fa-layers-counter fa-layers-bottom-left numberCircle" style="background-color:blue;">1</span>
+                <img src="images/blob1.svg" class="blob">
+              </span>
+              -->
+          <div class="row" style="padding-top: 20px;">
+            <div class="col-md-4">
+              <svg>
+                <use xlink:href="Layer_2"/>
+              </svg>
+            </div>
+            <div class="col-md-8">
+              <h3>Collect Ideas</h3>
+              <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+      <div class="col-md-6">
+        <img src="images/concept1.png">
+      </div>
+  </div>
+</div>
+<!--End Our process-->
 
 <!-- bootstrap -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

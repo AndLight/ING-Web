@@ -38,11 +38,75 @@ img{
 .roundBtn{
     border-radius: 20px;
 }
-
+/* krugovi u What we do */
 .lupa{
     color:red;
     display: inline-block;
     border-radius: 100px;
     background-color: rgb(247, 166, 166);
     padding: 1em 1.1em;
+}
+
+.laptop{
+    color:red;
+    display: inline-block;
+    border-radius: 100px;
+    background-color: rgb(247, 166, 166);
+    padding: 1em 1.1em;
+}
+
+.share{
+    color:red;
+    display: inline-block;
+    border-radius: 100px;
+    background-color: rgb(247, 166, 166);
+    padding: 1em 1.1em;
+}
+
+.checklist{
+    color:red;
+    display: inline-block;
+    border-radius: 100px;
+    background-color: rgb(247, 166, 166);
+    padding: 1em 1.1em;
+}
+
+.blob{
+    height: 20%;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+}
+
+.blobNumber{
+    height: 60%;
+    width: 60%;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.znak{
+    color: red;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+/* END krugovi u What we do */
+
+.check{
+    float: left;
+    padding-right: 10px;
+}
+
+.numberCircle{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+}
+
+#Layer_2{
+    fill: red;
 }
