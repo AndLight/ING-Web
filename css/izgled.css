@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #eef4f9;
+}
+.nav-link{
+    color:black;
+}
+
+.logo{
+    padding: 10px;
+}
+
+#home{
+    margin-top: 68px;
+    min-height: 500px;
+    height: 100%;
+    width: 100%;
+    background: #eef4f9;
+}
+
+.prviDeo{
+    margin-top: 100px;
+}
+
+.drugiDeo{
+    margin-top: 100px;
+    position: relative;
+}
+
+img{
+    max-width:100%;
+    max-height:500px;
+}
+
+.cloudAtTheBottom{
+    background: #eef4f9;
+}
+
+.roundBtn{
+    border-radius: 20px;
+}
