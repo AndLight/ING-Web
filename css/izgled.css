@@ -143,11 +143,32 @@ img{
 /* End Our Process*/
 
 /*carousel*/
-.carousel-inner img {
-    margin: auto;
-  }
+.carousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
 
-  .carousel-inner > .item > img {
-    margin: 0 auto;
+
+.carousel-indicators--round li {
+    border-radius: 10px;
+    margin: 1px 3px;
+    height: 10px;
+    max-width: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+.carousel-indicators .active {
+    background-color: gray;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+
+
+
+  .mask{
+    mask: url(#bloob1);
   }
 /*End carousel*/
