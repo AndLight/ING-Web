@@ -33,6 +33,7 @@ img{
 
 .cloudAtTheBottom{
     background: #eef4f9;
+    
 }
 
 .roundBtn{
@@ -191,3 +192,30 @@ img{
     z-index: 0;
 }
 /*Pricing*/
+
+/*email*/
+#emails{
+    border-radius: 20px;
+    width: 30%;
+    height: 37px;
+}
+/*end email*/
+
+.endShape {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 20px;
+  }
+
+  #pomerimo{
+      padding-right: 10px;
+  }
+  .pomeraj{
+      padding-bottom: 5px;
+  }
