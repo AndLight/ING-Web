@@ -43,7 +43,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <img class="logo img-fluid" src="images/logo.png">
+      
       <ul class="navbar-nav text-uppercase">
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#home" data-spy="scroll">HOME</a>
@@ -73,7 +73,7 @@
       <div class="col-md-6 prviDeo">
         <!--Posto ne mogu da se posavetujem stavicu ovako u dva reda samo jer lepse izgleda-->
         <h3 style="font-weight: bold;">Grow Your Business with</h3>
-        <h3 style="font-weight: bold;">Our Marketing Solutions</h3>
+        <h3 style="font-weight: bold; padding-bottom: 40px;">Our Marketing Solutions</h3>
         <p class="text-muted">We help our clients to increase their website</p>
         <p class="text-muted">traffic, rankings and visibility in search results.</p>
         <a class="btn btn-primary roundBtn text-uppercase" href="">Try it for free</a>
@@ -103,53 +103,87 @@
     <div class="row text-center">
 
         <div class="col-md-3 wow bounce animated delay-1s">
-          <!--Bloob1.svg-->
-          <div style="fill: #f3dae1;" class="OurProcessBloob1">
-            <svg id="bloob1"   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 192.71">
-              <title>shape</title>
-              <g id="Layer_2" data-name="Layer 2">
-                  <g id="Layer_1-2" data-name="#Layer 1">
-                      <path d="M198,71c10.4,39.76-21.65,85.41-57.3,106.84s-75.13,18.68-103.07-1.32A91.16,91.16,0,0,1,2.62,81C12,42.62,47.12,3,91.06.17S187.67,31.19,198,71Z"/>
-                  </g>
-              </g>
-            </svg>
+          <div class="d-none d-md-block">  
+            <!--Bloob1.svg-->
+            <div style="fill: #f3dae1;" class="OurProcessBloob1">
+              <svg id="bloob1"   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 192.71">
+                <title>shape</title>
+                <g id="Layer_2" data-name="Layer 2">
+                    <g id="Layer_1-2" data-name="#Layer 1">
+                        <path d="M198,71c10.4,39.76-21.65,85.41-57.3,106.84s-75.13,18.68-103.07-1.32A91.16,91.16,0,0,1,2.62,81C12,42.62,47.12,3,91.06.17S187.67,31.19,198,71Z"/>
+                    </g>
+                </g>
+              </svg>
+            </div>
+            <!--End Bloob1.svg-->
+            <i class="fa fa-search elOurProcessBlob fa-3x elPading" style="color: #d16b86; padding-bottom: 53pxs;"></i>
           </div>
-          <!--End Bloob1.svg-->
-          <i class="fa fa-search elOurProcessBlob fa-3x elPading" style="color: #d16b86; padding-bottom: 53px;"></i>
+
+          <div class="d-md-none" >
+            <svg class="OurProcessBloob1" style="fill: #f3dae1;">
+              <use xlink:href="#bloob1"/>
+            </svg>
+            <i class="fa fa-search elOurProcessBlob fa-3x elPading" style="color: #d16b86; padding-bottom: 53pxs; left: -20px;"></i>
+          </div>
+
+          <br>
           <h5>SEO Services</h5>
           <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
         </div>
 
         <div class="col-md-3 wow bounce animated delay-2s">
-          <svg class="OurProcessBloob1" style="fill: #d6e9f6;">
-            <use xlink:href="#bloob1"/>
-          </svg>
-          <i class="fa fa-laptop elOurProcessBlob fa-3x elPading" style="color: #b3c7e6;"></i>
+          <div class="d-none d-md-block"> 
+            <svg class="OurProcessBloob1" style="fill: #d6e9f6;">
+              <use xlink:href="#bloob1"/>
+            </svg>
+            <i class="fa fa-laptop elOurProcessBlob fa-3x elPading" style="color: #b3c7e6;"></i>
+          </div>
+          <div class="d-md-none">
+            <svg class="OurProcessBloob1" style="fill: #d6e9f6;">
+              <use xlink:href="#bloob1"/>
+            </svg>
+            <i class="fa fa-laptop elOurProcessBlob fa-3x elPading" style="color: #b3c7e6; left: -20px;"></i>
+          </div>
           <!--Nisam mogo da nadjem adekvatnu ikonicu u besplatnoj verziji font awesome-a -->
-          <br><br>
+          <br>
           <h5>Web Design</h5>
           <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
         </div>
 
         <div class="col-md-3 wow bounce animated delay-3s">
-          <span class="fa-layers fa-fw">
+          <div class="d-none d-md-block">
             <svg class="OurProcessBloob1" style="fill: #e6f2df;">
               <use xlink:href="#bloob1"/>
             </svg>
             <i class="fa fa-share-alt elOurProcessBlob fa-3x elPading" style="color: #9cd2b9;"></i>
-          </img>
-            <br><br>
+          </div>
+          <div class="d-md-none">
+            <svg class="OurProcessBloob1" style="fill: #e6f2df;">
+              <use xlink:href="#bloob1"/>
+            </svg>
+            <i class="fa fa-share-alt elOurProcessBlob fa-3x elPading" style="color: #9cd2b9; left: -20px;"></i>
+          </div>
+
+            <br>
             <h5>Social Engagement</h5>
             <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
-          </span>
+          
         </div>
 
         <div class="col-md-3 wow bounce animated delay-4s">
-          <svg class="OurProcessBloob1" style="fill: #e0e2ee;">
-            <use xlink:href="#bloob1"/>
-          </svg>
-          <i class="fa fa-tasks elOurProcessBlob fa-3x elPading" style="color: #848abd;"></i>
-          <br><br>
+          <div class="d-none d-md-block">
+            <svg class="OurProcessBloob1" style="fill: #e0e2ee;">
+              <use xlink:href="#bloob1"/>
+            </svg>
+            <i class="fa fa-tasks elOurProcessBlob fa-3x elPading" style="color: #848abd;"></i>
+          </div>
+          <div class="d-md-none">
+            <svg class="OurProcessBloob1" style="fill: #e0e2ee;">
+              <use xlink:href="#bloob1"/>
+            </svg>
+            <i class="fa fa-tasks elOurProcessBlob fa-3x elPading" style="color: #848abd; left: -20px;"></i>
+          </div>
+          <br>
           <h5>Content Marketing</h5>
           <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
         </div>
@@ -567,8 +601,7 @@
 
   <form action="https://i0.wp.com/ijgolding.com/admin/wp-content/uploads/2014/08/0-thank-you1.jpg?fit=1024%2C791&ssl=1" target="_blank">
     <input type="email" id="emails" name="emails" placeholder="    Email Address" minlength="1" multiple>
-    
-    <button type="submit" class="btn  roundBtn text-uppercase wow bounce animated" data-wow-iteration="3" style="background-color: lightseagreen; font-size: small; position: relative; top: -3px; left: 15px;">analyze</button>
+    <button type="submit" class="btn  roundBtn text-uppercase wow bounce animated" data-wow-iteration="3" style="background-color: lightseagreen; color: white; font-size: small; position: relative; top: -3px; left: 15px;">analyze</button>
   </form>
 
 </div>
