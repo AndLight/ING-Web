@@ -7,7 +7,10 @@
   
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- bootstrap end -->
+  <!-- bootstrap end -->
+
+  <!--Open Sans font-->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     
     <!--Font Awesone-->
     <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
@@ -25,7 +28,7 @@
 </head>
 
 
-</body>
+<body>
 <!--Navigacija-->
 <nav class="navbar navbar-expand-lg  fixed-top" id="mainNav" style="padding-left: 25%;">
   <!--Logo-->
@@ -65,7 +68,7 @@
 
 <!--Home-->
 <section id="home" style="white-space: nowrap;" class="page-section">
-  <div class="container">
+  <div class="container" style="height: auto; width: auto;">
     <div class="row text-center">
       <div class="col-md-6 prviDeo">
         <!--Posto ne mogu da se posavetujem stavicu ovako u dva reda samo jer lepse izgleda-->
@@ -76,9 +79,9 @@
         <a class="btn btn-primary roundBtn text-uppercase" href="">Try it for free</a>
       </div>
       <div class="col-md-6 drugiDeo">
-        <img class="img-fluid slideInUp animated delay-1s" src="images/rocket2.png" style="position: absolute; left:35%;">
-        <img class=" img-fluid slideInDown  animated infinite delay-1s" src="images/rocket3.png" style="position: relative;">
-        <img class=" img-fluid slideInDown animated infinite delay-1s" src="images/rocket4.png" style="position: relative;">
+        <img class="img-fluid fadeInUp animated delay-1s mx-auto d-block" src="images/rocket2.png" style="position: absolute; left:35%;">
+        <img class=" img-fluid slideInDown  animated  delay-1s" src="images/rocket3.png" style="position: relative;">
+        <img class=" img-fluid slideInDown animated  delay-1s" src="images/rocket4.png" style="position: relative;">
       </div>
     </div>
   </div>
@@ -99,7 +102,7 @@
   <div class="container">
     <div class="row text-center">
 
-        <div class="col-md-3 wow bounce animated delay-1s" data-wow-iteration="3">
+        <div class="col-md-3 wow bounce animated delay-1s">
           <!--Bloob1.svg-->
           <div style="fill: #f3dae1;" class="OurProcessBloob1">
             <svg id="bloob1"   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 192.71">
@@ -117,7 +120,7 @@
           <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
         </div>
 
-        <div class="col-md-3 wow bounce animated delay-2s" data-wow-iteration="3">
+        <div class="col-md-3 wow bounce animated delay-2s">
           <svg class="OurProcessBloob1" style="fill: #d6e9f6;">
             <use xlink:href="#bloob1"/>
           </svg>
@@ -128,7 +131,7 @@
           <p class="text-muted">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
         </div>
 
-        <div class="col-md-3 wow bounce animated delay-3s" data-wow-iteration="3">
+        <div class="col-md-3 wow bounce animated delay-3s">
           <span class="fa-layers fa-fw">
             <svg class="OurProcessBloob1" style="fill: #e6f2df;">
               <use xlink:href="#bloob1"/>
@@ -141,7 +144,7 @@
           </span>
         </div>
 
-        <div class="col-md-3 wow bounce animated delay-4s" data-wow-iteration="3">
+        <div class="col-md-3 wow bounce animated delay-4s">
           <svg class="OurProcessBloob1" style="fill: #e0e2ee;">
             <use xlink:href="#bloob1"/>
           </svg>
@@ -164,9 +167,6 @@
       <div class="col-md-6 wow fadeInDown animated">
         <p class="text-muted text-uppercase">Why choose us?</p>
         <h3>Why is Search Engine Optimization important for your business?</h3>
-        <div class="d-md-none">
-          <img src="images/concept8.png" class="wow lightSpeedIn animated delay-1s">
-        </div>
         <p class="text-muted">Mobi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
         
         <div style="padding-top: 50px;" class="wow fadeInDown animated delay-1s">
@@ -181,7 +181,9 @@
         </div>
       </div>
 
-      
+      <div class="d-md-none">
+        <img src="images/concept8.png" class="wow lightSpeedIn animated delay-1s">
+      </div>
     </div>
 
   </div>
@@ -194,12 +196,6 @@
       <div class="col-md-6 wow fadeInDown animated delay-1s">
         <p class="text-muted text-uppercase">Our process</p>
         <h3>We bring solutions to make life easier for our customers</h3>
-        
-        <div class="col-md-6 d-md-none">
-          <img src="images/concept1.png" class="wow lightSpeedIn animated">
-        </div>
-        
-
         <div class="column wow fadeInDown animated delay-1s">
           <div class="row" style="padding-top: 20px;">
             <div class="col-md-3 ">
@@ -252,7 +248,7 @@
         </div>
 
       </div>
-      <div class="col-md-6 d-none d-md-block">
+      <div class="col-md-6">
         <img src="images/concept1.png" class="wow lightSpeedIn animated">
       </div>
   </div>
@@ -268,11 +264,6 @@
       <div class="col-md-6 wow fadeInDown animated delay-1s">
         <p class="text-muted text-uppercase">Our Personalized Solutions</p>
         <h3>Just sit and relax while we take care</h3>
-
-        <div class="col-md-6 d-md-none">
-          <img src="images/concept3.png" class="wow lightSpeedIn animated ">
-        </div>
-
         <h3>of your business needs</h3>
         <p class="text-muted">Mobi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
         
@@ -287,7 +278,9 @@
           <h6 class="text-muted">Fusce dapibus cursus commodo.</h6>
         </div>
       </div>
-
+      <div class="col-md-6 d-md-none">
+        <img src="images/concept3.png" class="wow lightSpeedIn animated ">
+      </div>
   </div>
 </div>
 <!-- End Our Personalized Solutions-->
@@ -314,7 +307,7 @@
                   <div class="row ">
                     <div class="col-md-6">
                       <div >
-                        <img src="images/customer-t1.jpg" class="img-fluid" alt="Customer-t1">
+                        <img src="images/customer-t1.jpg" class="img-fluid example-mask" alt="Customer-t1">
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -334,7 +327,7 @@
                   <div class="row ">
                     <div class="col-md-6">
                       <div >
-                        <img src="images/customer-t2.jpg" class=" img-fluid" alt="Customer-t1">
+                        <img src="images/customer-t2.jpg" class=" img-fluid example-mask" alt="Customer-t1">
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -354,7 +347,7 @@
                   <div class="row ">
                     <div class="col-md-6">
                       <div >
-                        <img src="images/customer-t3.jpg" class=" img-fluid" alt="Customer-t1">
+                        <img src="images/customer-t3.jpg" class=" img-fluid example-mask" alt="Customer-t1">
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -382,7 +375,7 @@
                   <div class="row ">
                     <div class="col-md-6">
                       <div >
-                        <img src="images/customer-t4.jpg" class="img-fluid" alt="Customer-t1">
+                        <img src="images/customer-t4.jpg" class="img-fluid example-mask" alt="Customer-t1">
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -402,7 +395,7 @@
                   <div class="row ">
                     <div class="col-md-6">
                       <div >
-                        <img src="images/customer-t5.jpg" class=" img-fluid" alt="Customer-t1">
+                        <img src="images/customer-t5.jpg" class=" img-fluid example-mask" alt="Customer-t1">
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -422,7 +415,7 @@
                   <div class="row ">
                     <div class="col-md-6">
                       <div >
-                        <img src="images/customer-t6.jpg" class=" img-fluid" alt="Customer-t1">
+                        <img src="images/customer-t6.jpg" class=" img-fluid example-mask" alt="Customer-t1">
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -514,7 +507,7 @@
 <!--Let's talk-->
 <div class="container" style="padding-top: 150px; padding-bottom: 100px;">
   <div class="row ">
-      <div class="col-md-6">
+      <div class="col-md-6 d-none d-md-block">
         <img src="images/concept12.png" class="wow fadeInLeft animated delay-1s">
       </div>
       <div class="col-md-6 wow fadeInDown animated delay-1s">
@@ -526,19 +519,23 @@
           <button class="btn btn-primary roundBtn text-uppercase" href="" style=" width: 30%;">Contact us</button>
         </div>
       </div>
+      <div class="col-md-6 d-md-none">
+        <img src="images/concept12.png" class="wow lightSpeedIn animated ">
+      </div>
   </div>
 </div>
 <!--Let's talk-->
 
 <!--Analyze now-->
-<div class="container" style="padding-top: 150px; padding-bottom: 100px; text-align: center; background-color: #eef4f9;">
+<div class="container" style="padding-top: 150px; padding-bottom: 100px; text-align: center; background-color: #eef4f9; width: 100%;">
   <p class="text-muted text-uppercase">Analyze now</p>
   <h3>Wonder how much faster your website can go?</h3>
   <h3>Easily check your SEO Score now.</h3>
 
   <form action="https://i0.wp.com/ijgolding.com/admin/wp-content/uploads/2014/08/0-thank-you1.jpg?fit=1024%2C791&ssl=1" target="_blank">
-    <input type="email" id="emails" name="emails" placeholder="Email Address" multiple>
-    <button type="submit" class="btn btn-primary roundBtn text-uppercase wow bounce animated" data-wow-iteration="3" >analyze</button>
+    <input type="email" id="emails" name="emails" placeholder="    Email Address" minlength="1" multiple>
+    
+    <button type="submit" class="btn  roundBtn text-uppercase wow bounce animated" data-wow-iteration="3" style="background-color: lightseagreen; font-size: small; position: relative; top: -3px; left: 15px;">analyze</button>
   </form>
 
 </div>
@@ -630,7 +627,7 @@
       <p class="text-muted text-uppercase">info@email.com</p>
       <p class="text-muted text-uppercase">+00 (123) 456 78 90</p>
       <br>
-      <h6 style="font-weight: bold">Elswhere</h6> <br>
+      <h6 style="font-weight: bold">Elsewhere</h6> <br>
       <p>
         <a id="pomerimo" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
         <a id="pomerimo" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
